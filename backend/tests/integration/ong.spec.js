@@ -15,10 +15,6 @@ describe("ONG", () => {
   it("Should be able to create a new ONG", async () => {
     const response = await request(app)
       .post("/ongs")
-      // PARA TESTAR ROTAS QUE UTILIZEM O HEADERS E AUTHORIZATION, USAR O CODIGO ABAIXO
-      //.set("Authorization", "87639b64")
-      // fazer testes para outras rotas
-      // 5325
       .send({
         name: "APAE",
         email: "contato@gmail.com",
