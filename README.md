@@ -66,9 +66,7 @@ $ yarn start
 ```
 
 Mobile:
-Para ver a aplicação mobile com o React Native, primeiro é necessário colocar o IP do seu servidor (ou computador) no arquivo src/services/api.js, e depois executar os comandos:
 ```
-# NÃO é preciso executar a linha de baixo caso ja tenha o Expo (CLI) instalado
 yarn global add install expo-cli
 cd mobile
 yarn install
