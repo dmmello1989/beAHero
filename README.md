@@ -67,18 +67,26 @@ $ yarn start
 
 Mobile:
 ```
-yarn global add install expo-cli
-cd mobile
-yarn install
-yarn start
+# Instale o expo-cli
+$ yarn global add install expo-cli
+
+
+# Entre na pasta do frontend
+$ cd mobile
+
+# Instale as dependências
+$ yarn 
+
+# Inicie a aplicação
+$ yarn start
 ```
 Assim que o processo terminar, automaticamente será aberta no seu navegador a página localhost:19002. Conecte seu emulador, ou teste o aplicativo por LAN: baixe o aplicativo Expo da Play Store ou App Store e em seguida escaneie o código QR.
 
 ## :memo: Licença
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+Esse projeto está sob a licença MIT.
 
 ---
 
-Feito com ♥ by Rocketseat/dmmello1989 :wave: [Participe da nossa comunidade!](https://discordapp.com/invite/gCRAFhc)
+Feito com ♥ by Rocketseat/dmmello1989
 
